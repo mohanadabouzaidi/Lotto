@@ -72,7 +72,7 @@ namespace WindowsFormslotto
 
         private void Label_Click(object sender, EventArgs e)
         {
-            Label clickedLabel = sender as Label; 
+            Label clickedLabel = sender as Label; // Conversion sécurisée
             if (clickedLabel != null)              // Vérification
             {
                 if (selectedLabels.Count < maxSelectedLabels)
