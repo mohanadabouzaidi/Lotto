@@ -84,7 +84,7 @@ namespace WindowsFormslotto
                     {
                         //MessageBox.Show($"Vous avez sélectionné {maxSelectedLabels} labels.");
 
-                        label1.Text = "Chiffres Choisis";
+                        label1.Text = "Chiffres Choisiss";
                         label1.Show();
 
                         foreach (var item in selectedLabels)
