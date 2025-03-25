@@ -18,6 +18,8 @@ namespace WindowsFormslotto
         int maxSelectedLabels = 7; // Changé de 4 à 7
         List<int> chiffresGagnants = new List<int>();
 
+        int test = 0;
+
 
         public Form1()
         {
@@ -70,7 +72,7 @@ namespace WindowsFormslotto
 
         private void Label_Click(object sender, EventArgs e)
         {
-            Label clickedLabel = sender as Label; // Conversion sécurisée
+            Label clickedLabel = sender as Label; 
             if (clickedLabel != null)              // Vérification
             {
                 if (selectedLabels.Count < maxSelectedLabels)
